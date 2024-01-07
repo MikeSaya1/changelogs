@@ -1,7 +1,7 @@
 ![alt text][logo]
 
   [logo]:https://github.com/Project-Mist-OS/manifest/blob/13.1/assets/Banner.png ""
-* Below features are as of Nov 2023 in the MistOS source.
+* Below features are as of Dec 2023 in the MistOS source.
 * A few of them are specific to certain devices - e.g. button settings, fingerprint vibration toggle, etc.
 
 General
