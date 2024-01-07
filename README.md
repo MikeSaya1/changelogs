@@ -1,0 +1,137 @@
+![alt text][logo]
+
+  [logo]:https://github.com/Project-Mist-OS/manifest/blob/13.1/assets/Banner.png ""
+* Below features are as of Nov 2023 in the MistOS source.
+* A few of them are specific to certain devices - e.g. button settings, fingerprint vibration toggle, etc.
+
+General
+----------
+* Always latest Android 14
+* Pixel look and feel
+* OTA notification for officially supported devices
+* Optimized Art and Bionic
+* Updated libraries for better performance and security
+* Many under-the-hood changes for the best experience!
+
+Status Bar
+----------
+* Icons
+    * Status bar Clock background chip
+    * Status Bar icons toggle
+    * Clock style
+    * Clock & date customization
+    * Network Traffic monitoring and customization
+    * Data disabled indicator
+    * 4G icon toggle
+    * Roaming indicator toggle
+    * VoLTE/VoWifi style toggle
+    * Option toggling privacy indicators
+    * Forward-port notification counters
+    * Make app icons in the status bar optional 
+* Battery customization
+    * Battery style and percentage customization
+    * Battery bar customization
+* Gestures
+    * Tap to sleep toggle
+
+Quick Settings
+----------
+* Interface
+    * Qs Transparency Settings
+    * Toggle-able QS style
+    * qs tiles/layout customizations
+    * QS Clock font size
+    * QS Date toggle
+    * QS Brightness slider
+    * QS Header Image
+* Miscellaneous
+    * Clock toggle
+    * Date toggle
+    * Battery style
+    * Battery Percentage
+    * Auto brightness toggle
+    * Brightness control
+    * Quick pulldown
+* Footer
+    * Toggle data usage view on the QS footer 
+
+Lock Screen
+----------
+* Interface
+    * Pulse 
+    * Battery info toggle
+    * Tap to sleep toggle
+    
+* Misc
+    * Fingerprint authentication
+    * Allow doubletap/longpress power to toggle torch
+
+Buttons
+----------
+* Navigation bar toggle
+* Layout
+    * Show arrow keys while typing
+    * Layout
+      * Normal
+      * Compact
+      * Left-leaning
+      * Right-leaning
+    * Invert layout
+    * Back long press action
+    * Home long press action
+    * Home double-tap action
+    * Recents long press action
+* Volume buttons
+    * Volume steps customization
+    * Wake device with HW non-capacitive button
+    * Control playback with volume buttons
+    * Keyboard cursor control with volume buttons
+    * Reorient volume keys on a rotation change
+* Sound
+    * Volume panel on the left toggle
+
+Power
+----------
+* Power button
+  * Power menu customization
+    * Advanced restart options
+
+Theme Settings
+----------
+* Data icon styles
+* Font styles
+* Icon pack styles
+* Signal icon style
+* WiFi icon style
+* Icon shape
+* Implement Volume Styles
+
+Notifications
+----------
+* Alert slider notifications (device-specific)
+* reTicker
+* Noisy notifications
+* Heads up
+* Kill button to notification guts 
+* Less boring
+* In-call vibration options
+* Vibrate on connect
+* Vibrate on call waiting
+* Vibrate on disconnect
+
+Misc
+----------
+* Resigned Setting UI
+* Face unlock
+* Game space
+* Lockscreen clock styles
+* Unlimited Google Photos toggle
+* Swipe to screenshot
+* Implement click to take a partial screenshot
+* Implement cutout force full-screen
+* Battery charging control
+* Display 'Fast charging' for dash charge in battery settings
+* Pocket detection - prevents device interaction when inside pocket
+* Smart Pixels 
+* Window ignores secure feature 
+* Other features
