@@ -1,137 +1,143 @@
 ![alt text][logo]
 
   [logo]:https://github.com/Project-Mist-OS/manifest/blob/13.1/assets/Banner.png ""
-* Below features are as of Dec 2023 in the MistOS source.
-* A few of them are specific to certain devices - e.g. button settings, fingerprint vibration toggle, etc.
 
-General
-----------
-* Always latest Android 14
-* Pixel look and feel
-* OTA notification for officially supported devices
-* Optimized Art and Bionic
-* Updated libraries for better performance and security
-* Many under-the-hood changes for the best experience!
+* July security patch based on QPR3
+      - Version: 2.7 Fuji
 
-Status Bar
-----------
-* Icons
-    * Status bar Clock background chip
-    * Status Bar icons toggle
-    * Clock style
-    * Clock & date customization
-    * Network Traffic monitoring and customization
-    * Data disabled indicator
-    * 4G icon toggle
-    * Roaming indicator toggle
-    * VoLTE/VoWifi style toggle
-    * Option toggling privacy indicators
-    * Forward-port notification counters
-    * Make app icons in the status bar optional 
-* Battery customization
-    * Battery style and percentage customization
-    * Battery bar customization
-* Gestures
-    * Tap to sleep toggle
-
-Quick Settings
-----------
-* Interface
-    * Qs Transparency Settings
-    * Toggle-able QS style
-    * qs tiles/layout customizations
-    * QS Clock font size
-    * QS Date toggle
-    * QS Brightness slider
-    * QS Header Image
-* Miscellaneous
-    * Clock toggle
-    * Date toggle
-    * Battery style
-    * Battery Percentage
-    * Auto brightness toggle
-    * Brightness control
-    * Quick pulldown
-* Footer
-    * Toggle data usage view on the QS footer 
-
-Lock Screen
-----------
-* Interface
-    * Pulse 
-    * Battery info toggle
-    * Tap to sleep toggle
-    
-* Misc
-    * Fingerprint authentication
-    * Allow doubletap/longpress power to toggle torch
-
-Buttons
-----------
-* Navigation bar toggle
-* Layout
-    * Show arrow keys while typing
-    * Layout
-      * Normal
-      * Compact
-      * Left-leaning
-      * Right-leaning
-    * Invert layout
-    * Back long press action
-    * Home long press action
-    * Home double-tap action
-    * Recents long press action
-* Volume buttons
-    * Volume steps customization
-    * Wake device with HW non-capacitive button
-    * Control playback with volume buttons
-    * Keyboard cursor control with volume buttons
-    * Reorient volume keys on a rotation change
-* Sound
-    * Volume panel on the left toggle
-
-Power
-----------
-* Power button
-  * Power menu customization
-    * Advanced restart options
-
-Theme Settings
-----------
-* Data icon styles
-* Font styles
-* Icon pack styles
-* Signal icon style
-* WiFi icon style
-* Icon shape
-* Implement Volume Styles
-
-Notifications
-----------
-* Alert slider notifications (device-specific)
-* reTicker
-* Noisy notifications
-* Heads up
-* Kill button to notification guts 
-* Less boring
-* In-call vibration options
-* Vibrate on connect
-* Vibrate on call waiting
-* Vibrate on disconnect
-
-Misc
-----------
-* Resigned Setting UI
-* Face unlock
-* Game space
-* Lockscreen clock styles
-* Unlimited Google Photos toggle
-* Swipe to screenshot
-* Implement click to take a partial screenshot
-* Implement cutout force full-screen
-* Battery charging control
-* Display 'Fast charging' for dash charge in battery settings
-* Pocket detection - prevents device interaction when inside pocket
-* Smart Pixels 
-* Window ignores secure feature 
-* Other features
+## Features
+- Added A11 QS 
+- Added sound engine
+- Added Depth wallpaper 
+- Added Brightness slider Styles
+- Added status bar padding 
+- Added Background chip styles
+- Added lockscreen widgets
+- Added QS Header image customization
+- Added optional support for Lawnchair
+- Added weather settings in customization 
+- Added QS Tile layout
+- Added UI styles
+- Added Vibration and Haptics
+- Tunner Statusbar things
+- New UI Settings & about phone 
+- Added Mist launcher(launcher 3) as a optional 
+- Added intensity-based haptics for qs,brightness slider,volume panel, back gesture
+- Added less annoying notification
+- Added support for vanilla
+- Added fingerprint authentication vibration
+- Removed some unwanted overlays
+- Changed expandable volume panel implementation 
+- Added options for black theme
+- Added flashlight blink on incoming calls
+- Added new progress bar for battery and storage
+- Added illustrations and lottie animations
+- Redesigned volume panel
+- Added refresh rate tile and settings
+- Added AOD customizations and Vibration settings
+- Added App lock
+- Enabled Clone App Settings
+- Added per-app Volume
+- Added increasing ringer volume
+- Added smart pause
+- Added volume panel on left option
+- Added Pocket Mode
+- Added Display cutout
+- Added different navbar and gesture customizations
+- Added quick torch
+- Added Charging control and Sleep mode
+- Added Faceunlock
+- Added Scramble pin layout option
+- Added different pattern size
+- Added Monet Settings
+- Added icon packs and shapes
+- Added Navbar styles
+- Added volume styles
+- Added system fonts &  LS clock fonts
+- Added Brightness slider customizations and styles
+- Added UDFPS icons and animations
+- Added UI styles [Beta]
+- Added signal, wifi and data icons styles
+- Added Battery Styles, Battery bar and charging icons cust
+- Added Icon manager for status bar icons
+- Added HD icons for VoLTE and VoWIFI
+- Added Clock and date customizations
+- Added clock background chip options
+- Added notification count, colored qs icons and statubar icons
+- Added custom logos along with Everest logo
+- Added Network traffic, 4G icons
+- Added data disabled icon, wifi standard switch
+- Added Statubar paddings
+- Added statusbar clock colors, font styles and size
+- Added privacy indicators options
+- Added clock size cust
+- Added Qs header images
+- Added quick pulldown and show data usage option
+- Added QS transparency and QS dual tone option
+- Added qs header size
+- Added QS tiles touch feedback, tiles layout and A11 QS styles
+- Added QS tiles styles
+- Added QS animations and transitions
+- Added Brightness slider customizations
+- Added Brightness slider percentage and haptics
+- Added new power menu UI with advanced reboot options
+- Added power menu optional blur
+- Added playback control and volume media output
+- Added volume wake and volume button answer call
+- Added keyboard cursor control and arrow keys
+- Added reorient volume panel on screen rotate
+- System Gesture Settings
+- Added swipe to screenshot
+- Added statusbar brightness control
+- Added double tap to check phone
+- Added double tap to sleep
+- Added advanced gesture option
+- Added island notification styles
+- Added notification headup and make heads up less annoying
+- Added force stop button
+- Added clear all notification button(Replace clear all notification text with material style floating button)
+- Added edge lighting and their Customizations
+- Added Ambient-AOD Customization
+- Added Random Settings header image
+- Added lgnore window secure flags
+- Added Charging Background
+- Added Show clipboard overlay
+- Added Smart Pixels
+- Added Use storage encryption spoofing
+- Added Unlock higher FPS in games
+- Added Header style 
+- Added Sensor block per-package
+- Added Charging animation switch
+- Added Media show time switch
+- Added Unlimited Photos storage button
+- Added Allow application downgrade
+- Added system Navigation mode
+- Added Pixel animation for navbar
+- Added In-call vibration options
+- Added Custom Clock style
+- Added Dynamic clock
+- Added Lockscreen charging info
+- Added Screen off animation
+- Added Hide Statusbar
+- Added Lockscreen media artwork
+- Added Media cover art filter, blur level and fade level
+- Added Pulse (Audio visualizer for navigation bar, lockscreen and ambient screen)
+- Added Music ticker
+- Added Wake up on charge
+- Added Fingerprint authentication vibration
+- Added Fingerprint error vibration
+- Added Ripple effect
+- Screenshot tile
+- Volume panel tile
+- Sound tile
+- Live Display tile
+- Reading Mode tile
+- Powershare tile
+- Sleepmode tile
+- Heads Up tile 
+- Caffeine tile
+- Data Switch Tile tile
+- Wifi and Mobile Data tile
+- Sync tile 
+- Compass tile
+- Sound Search tile
