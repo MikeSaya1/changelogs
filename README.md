@@ -1,143 +1,149 @@
 ![alt text][logo]
 
-  [logo]:https://github.com/Project-Mist-OS/manifest/blob/13.1/assets/Banner.png ""
+  [logo]:https://github.com/Project-Mist-OS/manifest/blob/15-wip/assets/Banner.png ""
 
-* July security patch based on QPR3
-      - Version: 2.7 Fuji
+MistOS 3.3 Avnil
+February 07, 2025
+We are happy to announce the new update of MistOS version 3.3 (Avnil)
 
-## Features
-- Added A11 QS 
-- Added sound engine
-- Added Depth wallpaper 
-- Added Brightness slider Styles
-- Added status bar padding 
-- Added Background chip styles
-- Added lockscreen widgets
-- Added QS Header image customization
-- Added optional support for Lawnchair
-- Added weather settings in customization 
-- Added QS Tile layout
-- Added UI styles
-- Added Vibration and Haptics
-- Tunner Statusbar things
-- New UI Settings & about phone 
-- Added Mist launcher(launcher 3) as a optional 
-- Added intensity-based haptics for qs,brightness slider,volume panel, back gesture
-- Added less annoying notification
-- Added support for vanilla
-- Added fingerprint authentication vibration
-- Removed some unwanted overlays
-- Changed expandable volume panel implementation 
-- Added options for black theme
-- Added flashlight blink on incoming calls
-- Added new progress bar for battery and storage
-- Added illustrations and lottie animations
-- Redesigned volume panel
-- Added refresh rate tile and settings
-- Added AOD customizations and Vibration settings
-- Added App lock
-- Enabled Clone App Settings
-- Added per-app Volume
-- Added increasing ringer volume
-- Added smart pause
-- Added volume panel on left option
-- Added Pocket Mode
-- Added Display cutout
-- Added different navbar and gesture customizations
-- Added quick torch
-- Added Charging control and Sleep mode
-- Added Faceunlock
-- Added Scramble pin layout option
-- Added different pattern size
-- Added Monet Settings
-- Added icon packs and shapes
-- Added Navbar styles
-- Added volume styles
-- Added system fonts &  LS clock fonts
-- Added Brightness slider customizations and styles
-- Added UDFPS icons and animations
-- Added UI styles [Beta]
-- Added signal, wifi and data icons styles
-- Added Battery Styles, Battery bar and charging icons cust
-- Added Icon manager for status bar icons
-- Added HD icons for VoLTE and VoWIFI
-- Added Clock and date customizations
-- Added clock background chip options
-- Added notification count, colored qs icons and statubar icons
-- Added custom logos along with Everest logo
-- Added Network traffic, 4G icons
-- Added data disabled icon, wifi standard switch
-- Added Statubar paddings
-- Added statusbar clock colors, font styles and size
-- Added privacy indicators options
-- Added clock size cust
-- Added Qs header images
-- Added quick pulldown and show data usage option
-- Added QS transparency and QS dual tone option
-- Added qs header size
-- Added QS tiles touch feedback, tiles layout and A11 QS styles
-- Added QS tiles styles
-- Added QS animations and transitions
-- Added Brightness slider customizations
-- Added Brightness slider percentage and haptics
-- Added new power menu UI with advanced reboot options
-- Added power menu optional blur
-- Added playback control and volume media output
-- Added volume wake and volume button answer call
-- Added keyboard cursor control and arrow keys
-- Added reorient volume panel on screen rotate
-- System Gesture Settings
-- Added swipe to screenshot
-- Added statusbar brightness control
-- Added double tap to check phone
-- Added double tap to sleep
-- Added advanced gesture option
-- Added island notification styles
-- Added notification headup and make heads up less annoying
-- Added force stop button
-- Added clear all notification button(Replace clear all notification text with material style floating button)
-- Added edge lighting and their Customizations
-- Added Ambient-AOD Customization
-- Added Random Settings header image
-- Added lgnore window secure flags
-- Added Charging Background
-- Added Show clipboard overlay
-- Added Smart Pixels
-- Added Use storage encryption spoofing
-- Added Unlock higher FPS in games
-- Added Header style 
-- Added Sensor block per-package
-- Added Charging animation switch
-- Added Media show time switch
-- Added Unlimited Photos storage button
-- Added Allow application downgrade
-- Added system Navigation mode
-- Added Pixel animation for navbar
-- Added In-call vibration options
-- Added Custom Clock style
-- Added Dynamic clock
-- Added Lockscreen charging info
-- Added Screen off animation
-- Added Hide Statusbar
-- Added Lockscreen media artwork
-- Added Media cover art filter, blur level and fade level
-- Added Pulse (Audio visualizer for navigation bar, lockscreen and ambient screen)
-- Added Music ticker
-- Added Wake up on charge
-- Added Fingerprint authentication vibration
-- Added Fingerprint error vibration
-- Added Ripple effect
-- Screenshot tile
-- Volume panel tile
-- Sound tile
-- Live Display tile
-- Reading Mode tile
-- Powershare tile
-- Sleepmode tile
-- Heads Up tile 
-- Caffeine tile
-- Data Switch Tile tile
-- Wifi and Mobile Data tile
-- Sync tile 
-- Compass tile
-- Sound Search tile
+Changelogs:
+- Feb Security Patch 
+- Double Press Power Action Button 
+- Custom brightness slider
+- Added More Custom Widgets
+- Added Lockscreen Bottom Shortcut 
+- Fix the chroma & luminance factor
+- Customizing volume stream steps
+- various bug fixes & performance improvements
+
+Credits:
+Thanks to RisingOS, CrDroid, Derpfest, LMODroid, and other for their contribution.
+
+---------------------------------------------------------------------------------------
+MistOS 3.2.1 Nimbus Hotfix 
+January 16, 2025
+Disclaimer: This is the HotFix update on version 3.2, January Security Patch.
+
+Changelog:
+- Fixed the System Crashing 
+- Fixed the Launcher HotSeat Background Crashing
+- Fixed the Bootloop Issue 
+- Fixed the System Animation & Jitters
+- Removed the Unused Spoofing settings
+- System Improvement 
+- All the features & customisation same from previous update
+  
+-----------------------------------------------------------------------------------------
+MistOS 3.2 Rayleigh (Stable)
+January 13, 2025
+We are excited to bring you the latest release of MistOS! After thorough testing, we are happy to announce the stable release of MistOS 3.2 - Rayleigh. This update includes important security patches, new features, and various performance improvements to enhance your device experience. Here's what’s new:
+
+Changelog:
+
+- January QPR1 Security Patch
+- Revamped Settings UI for a cleaner and more intuitive experience
+- Reverted to PIH certification for improved stability
+- Added PIH GameProps for enhanced performance and customization
+- Split Notification feature for better multitasking management
+- New System Animation Styles for a more fluid and responsive experience
+- Added Now Bar (Credit: Rising)
+- Various bug fixes and performance improvements
+
+
+Credits:
+Thanks to RisingOS, CrDroid, Derpfest, LMODroid, Project Flare, and others for their contributions.
+
+------------------------------------------------------------------------------------------
+MistOS 3.0.1 Beta Changelog
+December 23, 2024
+Disclaimer: This release includes the November 2024 Security Patch and doesn't feature the December 2024 Security Patch.
+
+Changelog:
+- Fixed LMOFreeform service & sidebar
+- Added notification style & progress bar (credit to Rising)
+- Added header clock style 
+- Revamped setting Homepage Ui
+- Redesign About Phone Ui
+- Redesign MistLauncher Ui (Credit to LMODroid)
+- Added dual tone QS background 
+- Added split notification shade
+- Added OEM fast charging 
+- Added auto sleep mode
+- Added Smart5G - with toggle in internet connectivity 
+- Added privacy indicator toggle 
+- Added per-app volume
+- Fixed DSR
+- and bug fixes & improvement 
+
+Credits:-
+LineageOS
+CrDroid
+RisingOS
+DerpFest AOSP
+LMODroid.. & others.
+
+----------------------------------------------------------------------
+
+MistOS 3.0 Beta Changelog
+December 02, 2024
+* All New MistOS Beta 3.0 Base On Android 15
+
+* November Security Patch
+* All New HomeScreen Ui ( Thanks to Rising For HomePage Avatar)
+* Redesign Mistify ( Credit to HorizonDroid, Afterlife & RisingOS)
+* Redesign About Phone (Thanks To RisingOS for Device Info Ui)
+* Added New QS Style ( Thanks to RisingOS)
+
+# Features
+
+* Added Network traffic Monitor 
+* Added Color Status Bar Icon
+* Added Status bar clock chip 
+* Added Icons Packs
+* Added Fonts
+* Added Boot animation Styles
+* Added Custom Volume Pannel Styles
+* Added wifi & signal icons
+* Added Wallpaper Styles
+* Added Custom Clock face
+* Added Lockscreen Widget 
+* Added Ambient Display 
+* Added Media Cover Art
+* Added Depth Wallpaper 
+* Added Peak Display 
+* Added Weather Info
+* Added Double Tap to Sleep
+* Added Double Tap to Wake
+* Added Fingerprint Authentication 
+* Redesign Power Menu
+* Advance Power Menu
+* Added HUD 
+* Added battery styles
+* Added Status Bar Padding
+* Added HeadsUp Images
+* Added QS pannel Styles
+* Added A11 QS style
+* Added Quick Settings Widget 
+* Added Navigation Styles 
+* Added long swipe actions
+* Added PIF json Spoofing
+* Added Shake Gesture 
+* Added Gaming Mode
+* Added Risa Ai
+* Added Pocket Detections 
+* Added SideBar
+* Added SmartPixel
+* Added Smart PowerOff
+* Added QuickSwitch
+* Added Clipboard Auto Clear
+* Added no storage restrictions 
+* Added ignore window secure flags
+* Added Adaptive playback
+* Added custom vibrations
+* Added System Haptic
+* Added RAM boost
+* Added Charging Control 
+* Added 60hz, 75hz, 90hz, 120hz Refresh Rate
+* Added Lineage Display 
+* Added AppLock
+* Added app Clone & Many More on List..
