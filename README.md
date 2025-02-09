@@ -2,11 +2,11 @@
 
   [logo]:https://github.com/Project-Mist-OS/manifest/blob/15-wip/assets/Banner.png ""
 
-MistOS 3.3 Avnil
-February 07, 2025
+# MistOS 3.3 Avnil
+### February 07, 2025
 We are happy to announce the new update of MistOS version 3.3 (Avnil)
 
-Changelogs:
+<ins>Changelogs:</ins>
 - Feb Security Patch 
 - Double Press Power Action Button 
 - Custom brightness slider
@@ -20,11 +20,11 @@ Credits:
 Thanks to RisingOS, CrDroid, Derpfest, LMODroid, and other for their contribution.
 
 ---------------------------------------------------------------------------------------
-MistOS 3.2.1 Nimbus Hotfix 
-January 16, 2025
+# MistOS 3.2.1 Nimbus Hotfix 
+### January 16, 2025
 Disclaimer: This is the HotFix update on version 3.2, January Security Patch.
 
-Changelog:
+<ins>Changelogs:</ins>
 - Fixed the System Crashing 
 - Fixed the Launcher HotSeat Background Crashing
 - Fixed the Bootloop Issue 
@@ -34,12 +34,11 @@ Changelog:
 - All the features & customisation same from previous update
   
 -----------------------------------------------------------------------------------------
-MistOS 3.2 Rayleigh (Stable)
-January 13, 2025
+# MistOS 3.2 Rayleigh (Stable)
+### January 13, 2025
 We are excited to bring you the latest release of MistOS! After thorough testing, we are happy to announce the stable release of MistOS 3.2 - Rayleigh. This update includes important security patches, new features, and various performance improvements to enhance your device experience. Here's what’s new:
 
-Changelog:
-
+<ins>Changelogs:</ins>
 - January QPR1 Security Patch
 - Revamped Settings UI for a cleaner and more intuitive experience
 - Reverted to PIH certification for improved stability
@@ -54,11 +53,11 @@ Credits:
 Thanks to RisingOS, CrDroid, Derpfest, LMODroid, Project Flare, and others for their contributions.
 
 ------------------------------------------------------------------------------------------
-MistOS 3.0.1 Beta Changelog
-December 23, 2024
+# MistOS 3.0.1 Beta Changelog
+### December 23, 2024
 Disclaimer: This release includes the November 2024 Security Patch and doesn't feature the December 2024 Security Patch.
 
-Changelog:
+<ins>Changelogs:</ins>
 - Fixed LMOFreeform service & sidebar
 - Added notification style & progress bar (credit to Rising)
 - Added header clock style 
@@ -84,10 +83,11 @@ LMODroid.. & others.
 
 ----------------------------------------------------------------------
 
-MistOS 3.0 Beta Changelog
-December 02, 2024
+# MistOS 3.0 Beta Changelog
+### December 02, 2024
 * All New MistOS Beta 3.0 Base On Android 15
 
+<ins>Changelogs:</ins>
 * November Security Patch
 * All New HomeScreen Ui ( Thanks to Rising For HomePage Avatar)
 * Redesign Mistify ( Credit to HorizonDroid, Afterlife & RisingOS)
